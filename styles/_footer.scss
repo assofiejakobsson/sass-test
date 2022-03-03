@@ -1,0 +1,31 @@
+
+
+
+.menu2 {
+    max-width: 1110px;
+    width: 100%;
+    min-height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .link {
+        justify-content: center;
+        justify-content: center;
+        .link1 {
+            width: 67px;
+            height: 23px;
+        }
+        .link2 {
+            width: 66px;
+            height: 23px;
+        }
+
+    }
+    .icon {
+        justify-content: flex-end;
+        width: 95px;
+        height: 15px;
+
+    }
+
+}

@@ -1,13 +1,17 @@
 @import '_nav';
 
-header {
+.menu {
+    min-width: 1109;
+    width: 100%;
+    min-height: 23;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .link {
+    justify-content: flex-end;
+    }
 }
 
-.link {
-    justify-content: flex-end;
-}
+
    
 
