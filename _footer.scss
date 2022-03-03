@@ -1,13 +1,8 @@
 @import '_nav';
 
-header {
+
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.link {
-    justify-content: flex-end;
-}
-   
-

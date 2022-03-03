@@ -1,15 +1,1 @@
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.navindex.html {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-.navlink {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
+.nav{display:flex}.nav a{color:#111111}header{display:flex;justify-content:space-between;align-items:center}.link{justify-content:flex-end}

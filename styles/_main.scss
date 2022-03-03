@@ -12,12 +12,13 @@
  }
 
 
-.container {
+ .container {
     display: grid;
     grid-template-columns: repeat(12 3fr);
     grid-template-rows: 7fr 6fr 10fr 8fr 7fr 7fr 8fr 9fr 9fr 9fr 10fr 6fr;
-    /*column-gap: 2em;
-    row-gap: 2em;*/
+    /*column-gap: 1em;
+    row-gap: 1em;*/
+    gap: 1%;
     .rec1 {
         grid-row-start: 1;
         grid-row-end: 8;
@@ -95,5 +96,86 @@
         grid-column-start: 7;
         grid-column-end: 10;  
     }
+}
+
+.text2 {
+    display: flex;
+    width: 1079px;
+    height: 106px;
+    
+    .text2_1 {
+        height: 106px;
+        width: 635px;
+        font-family: 'Mulish', sans-serif;
+        font-style: Bold;
+        font-size: 28px;
+        line-height: 38px;
+        padding: 0px;
+    }
+    .service {
+        width: 444;
+        height: 106;
+        font-family: 'Mulish', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0px;
+        justify-content: flex-end;
+
+    }
+}
+
+.container2 {
+    display: grid;
+    /*width: 1110px;
+    height: 823px;*/
+    font-family: 'Mulish', sans-serif;
+    .a {
+
+    }
+    .b {
+
+    }
+    .c {
+
+    }
+    .d {
+
+    }
+    .a- {
+
+    }
+    .b- {
+
+    }
+    .c- {
+
+    }
+    .a-- {
+
+    }
+    .b-- {
+
+    }
+    .c-- {
+
+    }
+    .d-- {
+
+    }
+    .a--- {
+
+    }
+    .b--- {
+
+    }
+    .c--- {
+
+    }
+    .d--- {
+        
+    }
+    
 }
 
