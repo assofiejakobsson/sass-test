@@ -1,1 +1,1 @@
-.nav{display:flex}.nav a{color:#111111}.menu{min-width:1109;width:100%;min-height:23;display:flex;justify-content:space-between;align-items:center}.menu .link{justify-content:flex-end}
+.nav{display:flex;justify-content:space-between}.nav a{color:#111111}.menu{max-width:1109px;width:100%;min-height:23px;display:flex;justify-content:space-between;align-items:center;margin-left:20px;margin-right:20px}.logo{justify-content:flex-start}.linktop{display:flex;justify-content:space-between;justify-content:flex-end}.linktop .linka{margin-right:10px}
