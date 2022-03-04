@@ -20,10 +20,21 @@
 
         .link1 {
             margin-right: 10px;
+            color: #111111;
         }
         .link2 {
+            color: #111111;
             
         }
+
+    .link1:hover {
+        color: #4A4FF2;
+    }
+
+    .link2:hover {
+        color: #4A4FF2;
+        
+    }
 
     }
     .icon {
