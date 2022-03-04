@@ -4,13 +4,17 @@
     display: flex;
     margin-left: 20px;
     color: #111111;
+    font-family: 'Mulish', sans-serif;
     .text1_2 {
         max-width: 635px;
         width: 100%;
         min-height: 251px;
         .rec {
+            justify-content: flex-end;
+            align-content: flex-end;
             width: 212;
             height: 34;
+            border: #111111;
             fill: #111111;
         }
     }
@@ -40,9 +44,6 @@
     
     
     .rec1 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 413px;
         -ms-grid-row: 1;
             grid-row-start: 1;
         -ms-grid-row-span: 7;
@@ -55,9 +56,6 @@
  
     }
     .rec2 {
-        max-width: 356px;
-        width: 100%;
-        min-height: 351px;
         -ms-grid-row: 1;
             grid-row-start: 1;
         -ms-grid-row-span: 6;
@@ -69,9 +67,6 @@
        
     }
     .rec3 {
-        max-width: 350px;
-        width: 100%;
-        min-height: 599px;
         -ms-grid-row: 1;
             grid-row-start: 1;
         -ms-grid-row-span: 10;
@@ -83,9 +78,6 @@
        
     }
     .rec4 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 475px;
         -ms-grid-row: 8;
             grid-row-start: 8;
         -ms-grid-row-span: 8;
@@ -97,9 +89,6 @@
        
     }
     .rec5 {
-        max-width: 350px;
-        width: 100%;
-        min-height: 413px;
         -ms-grid-row: 7;
             grid-row-start: 7;
         -ms-grid-row-span: 7;
@@ -110,9 +99,6 @@
         grid-column-end: 7;
     }
     .rec6 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 413px;
         -ms-grid-row: 11;
             grid-row-start: 11;
         -ms-grid-row-span: 7;
@@ -123,9 +109,6 @@
         grid-column-end: 10;
     }
     .rec7 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 475px;
         -ms-grid-row: 16;
             grid-row-start: 16;
         -ms-grid-row-span: 8;
@@ -136,9 +119,6 @@
         grid-column-end: 4;  
     }
     .rec8 {
-        max-width: 356px;
-        width: 100%;
-        min-height: 537px;
         -ms-grid-row: 14;
             grid-row-start: 14;
         -ms-grid-row-span: 9;
@@ -149,9 +129,6 @@
         grid-column-end: 7;
     }
     .rec9 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 537px;
         -ms-grid-row: 18;
             grid-row-start: 18;
         -ms-grid-row-span: 9;
@@ -162,9 +139,6 @@
         grid-column-end: 10;
     }
     .rec10 {
-        max-width: 357px;
-        width: 100%;
-        min-height: 537px;
         -ms-grid-row: 24;
             grid-row-start: 24;
         -ms-grid-row-span: 9;
@@ -175,9 +149,6 @@
         grid-column-end: 4;
     }
     .rec11 {
-        max-width: 356px;
-        width: 100%;
-        min-height: 599px;
         -ms-grid-row: 23;
             grid-row-start: 23;
         -ms-grid-row-span: 10;
@@ -188,9 +159,6 @@
         grid-column-end: 7;  
     }
     .rec12 {
-        max-width: 350px;
-        width: 100%;
-        min-height: 351px;
         -ms-grid-row: 27;
             grid-row-start: 27;
         -ms-grid-row-span: 6;
