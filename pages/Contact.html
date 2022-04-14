@@ -7,16 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="../styles/Contact.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <script src="https://kit.fontawesome.com/f1f2235153.js" crossorigin="anonymous"></script>
     <title>Genesis</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
 </head>
 <body>
     <header class="menu">
-        <a class="logo" href="index.html"><img src="images/Logo.svg" title="Logo"></a>
+        <a class="logo" href="../index.html"><img src="../images/Logo.svg" title="Logo"></a>
         <nav class="nav">
             <div class="linktop">    
-                <a class="linka" href="Project-details.html">Project-details</a>
+                <a class="linka" href="Project-details.html">Project details</a>
                 <a class="linkb" href="Contact.html">Contact</a>
             </div>
             </nav>
@@ -42,22 +47,30 @@
             </div> 
         </div>
         <div class="map">
-            <img src="images/Map.png" alt="map" title="map">
+            <picture class="pic">
+                <source media="(min-width:1100px)" srcset="../images/map.png">
+                <source media="(min-width:600px)" srcset="../images/maptab.png">
+                <source media="(min-width:600px)" srcset="../images/mapmob.png">   
+                <img src="../images/mapmob.png" alt="picture of me" title="picture of me" style="width: auto;">
+            </picture>
+            <!--<img src="../images/Map.png" alt="map" title="map">-->
         </div>
     </main>
     <footer class="menu2">
-        <a class="logo" href="index.html"><img src="images/Logo.svg" title="Logo"></a>
+        <a class="logo" href="../index.html"><img src="../images/Logo.svg" title="Logo"></a>
         <nav class="nav">
             <div class="linkbot">
-                <a class="link1" href="Project-details.html">Project-details</a>
+                <a class="link1" href="Project-details.html">Project details</a>
                 <a class="link2" href="Contact.html">Contact</a>
             </div>
         </nav>
-            <div class="icon">
-                <img class="icon1" src="images/So1.png" alt="dribbble-logo" title="dribbble-logo">
-                <img class="icon2" src="images/so2.png" alt="twitter-logo" title="twitter-logo-silhouette">
-                <img class="icon3" src="images/so3.png" alt="Instagram" title="Instagram">
-            </div>
+        <div class="icon-row">
+            
+            <a class="nav-appearance" href="#"><i class="fab fa-github"></i></a>
+            <a class="nav-appearance" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="nav-appearance" href="#"><i class="fab fa-twitter"></i></a>
+        
+    </div>
     </footer>
 
 </body>
